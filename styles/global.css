@@ -22,6 +22,7 @@
 
   --ff-syne: "Syne", sans-serif;
   --ff-base: "Montserrat", sans-serif;
+  --ff-inter: "Inter", sans-serif;
 
   --fw-bold: 700;
   --fw-medium: 500;
@@ -46,5 +47,10 @@ h1 {
 h2 {
   font-size: var(--text-lg);
   line-height: 1.2;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
