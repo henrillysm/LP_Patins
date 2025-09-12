@@ -54,3 +54,6 @@ a {
   text-decoration: none;
 }
 
+html {
+  zoom: .5;
+}

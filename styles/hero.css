@@ -108,7 +108,7 @@ section.hero {
 
     }
 
-    & img[src*="ellipse"] {
+    & img[src*="Ellipse"] {
       width: 94%;
       top: 3%;
       left: 3%;
@@ -129,9 +129,9 @@ section.hero {
     top: 30%;
     z-index: 0;
     
-    /* opacity: 0; */
+    opacity: 0;
     transform: translateX(400%);
-    animation: slideIn 2s 0.8s ease both, appear 100ms 800ms both;
+    animation: slideIn 2s 800ms ease both, appear 100ms 800ms both;
 
     }
 
@@ -148,7 +148,7 @@ section.hero {
 }
 
 @keyframes slideIn {
-  100% {
+  50% {
     transform: translateX(-20px);
   }
 
@@ -158,8 +158,8 @@ section.hero {
 }
 
 @keyframes appear {
-  100% {
-    transform: translateX(0);
+  to {
+    opacity: 1;;
   }
 }
 
