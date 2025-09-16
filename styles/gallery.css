@@ -40,7 +40,7 @@ section.gallery {
         animation-range: 100px 300px;
 
         &[data-delay] {
-            animation-range: 150px 350px;
+            animation-range: 150px 300px;
         }
 
         & > img {
@@ -82,7 +82,7 @@ section.gallery {
         }
     }
 
-    & figcaption{
+    & figcaption {
         display: flex;
         align-items: center;
         justify-content: flex-end;
@@ -111,15 +111,12 @@ section.gallery {
 
         }
     }
+}
 
-    @keyframes image-appear {
-        from {
-            opacity: 0;
-            transform: translateY(100%);
-        }
+@keyframes image-appear {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
     }
-
-
-
 }
 
